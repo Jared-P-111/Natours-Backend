@@ -1,14 +1,17 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "Learning Node, Express, and mongoDB",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jared Pisell",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.3"
-  }
+	"name": "natours",
+	"version": "1.0.0",
+	"description": "Learning Node, Express, and mongoDB",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"author": "Jared Pisell",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"mongoose": "^5.13.14",
+		"morgan": "^1.10.0"
+	}
 }
